@@ -10,7 +10,7 @@ class VigenereCipheringMachine {
         } else {
             this.en_type = true;
         }
-        console.log('type', this.en_type);
+        if (DEBUG_LOG_ENABLE) console.log('type', this.en_type);
     }
 
 
