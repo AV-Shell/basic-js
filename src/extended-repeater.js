@@ -26,6 +26,5 @@ module.exports = function repeater(str, options) {
         outstring = outstring + str + add_str;
     } while (i < repeatTimes);
     return outstring;
-    throw 'Not implemented';
     // remove line with error and write your code here
 };
